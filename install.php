@@ -1,9 +1,4 @@
 <?php
-/*
- * Safe FS Poster Installer
- * Creates required tables locally without remote fetch
- */
-
 defined('ABSPATH') or exit;
 
 function fsp_install_tables() {
@@ -139,4 +134,5 @@ function fsp_install_tables() {
 }
 
 register_activation_hook(__FILE__, 'fsp_install_tables');
-<!-- FS Poster -->
+
+// FS Poster
